@@ -1,10 +1,13 @@
 {
-  "name": "react-instagram-zoom",
+  "name": "@cyberdas/react-instagram-zoom",
   "version": "1.0.1",
   "description": "React component that implements Instagram-like zoom for mobile",
   "author": "https://github.com/AlexSapoznikov/react-instagram-zoom",
   "license": "MIT",
-  "repository": "https://github.com/idonotknowwhoiam/react-instagram-zoom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idonotknowwhoiam/react-instagram-zoom.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -56,7 +59,6 @@
   "files": [
     "dist"
   ],
-  "dependencies": {},
   "keywords": [
     "react-instagram-zoom",
     "react-instagram-zoomable",
@@ -75,5 +77,13 @@
     "zoom",
     "react",
     "reactjs"
-  ]
+  ],
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/idonotknowwhoiam/react-instagram-zoom/issues"
+  },
+  "homepage": "https://github.com/idonotknowwhoiam/react-instagram-zoom#readme",
+  "directories": {
+    "example": "example"
+  }
 }
