@@ -4,7 +4,7 @@
   "description": "React component that implements Instagram-like zoom for mobile",
   "author": "https://github.com/AlexSapoznikov/react-instagram-zoom",
   "license": "MIT",
-  "repository": "https://github.com/AlexSapoznikov/react-instagram-zoom",
+  "repository": "https://github.com/idonotknowwhoiam/react-instagram-zoom",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^17.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -40,9 +40,9 @@
     "gh-pages": "^2.2.0",
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-scripts": "^4.0",
     "typescript": "^3.7.5",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
